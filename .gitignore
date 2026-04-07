@@ -8,7 +8,10 @@ node_modules/
 # Ollama files (personal, outside project)
 # These live in ~/.shia/ on the user's machine
 .shia/
-*.md
+
+# Markdown files tracked in repo
+sysprompt.md
+memory.md
 
 # Logs
 *.log

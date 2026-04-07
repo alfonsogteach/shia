@@ -2,9 +2,6 @@
 
 by **Alfonso Gonzalez** — https://github.com/alfonsogteach/shia
 
-<img width="930" height="453" alt="Captura de pantalla 2026-04-08 a las 0 44 35" src="https://github.com/user-attachments/assets/aec03ba8-4c3a-4cad-82c1-f10e71455e3d" />
-
-
 Terminal chat con Ollama. Interfaz local, configurable y minimalista para tu terminal.
 
 ---
@@ -159,7 +156,7 @@ Si `~/.shia/` no existe, se crea automáticamente con:
 
 - **Todo es local** — sin dependencias externas, sin API keys
 - **Los archivos de datos personales** (`~/.shia/`) nunca se suben a git
-- `.gitignore` excluye `node_modules/`, `.shia/` y `*.md`
+- `.gitignore` excluye `node_modules/`, `.shia/`, `sysprompt.md` y `memory.md`
 
 ---
 
