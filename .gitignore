@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Ollama files (personal, outside project)
+# These live in ~/.shia/ on the user's machine
+.shia/
+*.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*

@@ -1,0 +1,29 @@
+{
+  "name": "shia",
+  "version": "1.0.0",
+  "description": "Shield IA - Terminal chat with Ollama",
+  "type": "module",
+  "main": "shia.js",
+  "bin": {
+    "shia": "./shia.js"
+  },
+  "scripts": {
+    "start": "node shia.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ollama",
+    "chat",
+    "terminal",
+    "shield",
+    "ia"
+  ],
+  "author": "Alfonso Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "ollama": "^0.6.3",
+    "picocolors": "^1.1.1"
+  },
+  "repository": "https://github.com/alfonsogteach/shia"
+}
